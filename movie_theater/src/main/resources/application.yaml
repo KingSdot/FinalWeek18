@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: movie_theater
+    password: movie_theater
+    url: jdbc:mysql://localhost:3306/movie_theater
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    defer-datasource-initialization: true
+    
+  sql:
+    init:
+      mode: always
